@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./javascripts/source.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -16,11 +18,10 @@
         </ul>
     </header>
     <section>
-        <form>
-            <input type="text" placeholder="Enter Name"> <br>
-            <input type="Age" placeholder="Enter age"> <br>
-            <button type="submit">Submit</button>
-
+        <form id="submit-form">
+            <input type="text" id="name" placeholder="Enter Name"> <br>
+            <input type="Age" id="age" placeholder="Enter age"> <br>
+            <button type="submit" onclick="showName()">Submit</button>
         </form>
     </section>
 </body>
